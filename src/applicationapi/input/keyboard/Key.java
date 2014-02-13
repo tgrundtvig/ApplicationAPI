@@ -72,5 +72,6 @@ public enum Key
     VK_NUM_7,
     VK_NUM_8,
     VK_NUM_9,
-    VK_NUM_ENTER
+    VK_NUM_ENTER,
+    UNKNOWN
 }

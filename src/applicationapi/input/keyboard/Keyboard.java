@@ -15,4 +15,5 @@ package applicationapi.input.keyboard;
 public interface Keyboard
 {
     public void addKeyboardListener(KeyboardListener keyListener);
+    public void removeKeyboardListener(KeyboardListener keyListener);
 }
