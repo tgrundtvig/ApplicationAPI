@@ -10,8 +10,5 @@ package applicationapi.input.keyboard;
  *
  * @author tog
  */
-public interface KeyboardListener
-{
-    public void onKeyPressed(KeyPressedEvent e);
-    public void onKeyReleased(KeyReleasedEvent e);
-}
+public interface KeyPressedEvent extends KeyEvent
+{}

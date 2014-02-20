@@ -8,6 +8,7 @@ package applicationapi;
 
 import applicationapi.graphics.Screen;
 import applicationapi.input.keyboard.Keyboard;
+import applicationapi.input.mouse.Mouse;
 
 /**
  *
@@ -17,4 +18,5 @@ public interface Device
 {
     public Screen getScreen();
     public Keyboard getKeyboard();
+    public Mouse getMouse();
 }

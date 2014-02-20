@@ -4,14 +4,16 @@
  * and open the template in the editor.
  */
 
-package applicationapi.input.keyboard;
+package applicationapi.input.mouse;
+
+import applicationapi.input.InputEvent;
 
 /**
  *
  * @author tog
  */
-public interface KeyboardListener
+public interface MouseEvent extends InputEvent
 {
-    public void onKeyPressed(KeyPressedEvent e);
-    public void onKeyReleased(KeyReleasedEvent e);
+    public int getX();
+    public int getY();
 }
