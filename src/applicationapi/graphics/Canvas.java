@@ -12,4 +12,5 @@ package applicationapi.graphics;
 public interface Canvas
 {
     public void drawSprite(int x, int y, Sprite sp);
+    public void drawLine(int ax, int ay, int bx, int by, Color c);
 }
